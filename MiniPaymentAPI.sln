@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniPaymentAPI", "MiniPaymentAPI.csproj", "{168C112A-9655-4B14-9AB2-65D06D6DB67C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniPaymentAPI.Data", "MiniPaymentAPI.Data\MiniPaymentAPI.Data.csproj", "{5AD0F9CD-5943-4C0E-BF95-7352A0F6C5DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

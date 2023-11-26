@@ -6,12 +6,12 @@ namespace MiniPaymentAPI.Services
     public class TransactionReportService
         : ITransactionReportService
     {
-        public async Task<IEnumerable<Transaction>> GetTransactionsByBank(int bankId)
+        public async Task<IEnumerable<Transaction>> GetTransactionsByBank(string bankId)
         {
             return Array.Empty<Transaction>();
         }
 
-        public async Task<IEnumerable<Transaction>> GetTransactionsByStatus(TransactionStatus status)
+        public async Task<IEnumerable<Transaction>> GetTransactionsByStatus(short status)
         {
             return Array.Empty<Transaction>();
         }

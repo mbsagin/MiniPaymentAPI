@@ -6,7 +6,7 @@ namespace MiniPaymentAPI.Services
     public class GarantiService
         : IBankService
     {
-        public Task<TransactionDetail> Cancel(Guid transactionId)
+        public Task<TransactionDetail> Cancel(string transactionId)
         {
             throw new NotImplementedException();
         }
@@ -16,7 +16,7 @@ namespace MiniPaymentAPI.Services
             throw new NotImplementedException();
         }
 
-        public Task<TransactionDetail> Refund(Guid transactionId)
+        public Task<TransactionDetail> Refund(string transactionId)
         {
             throw new NotImplementedException();
         }

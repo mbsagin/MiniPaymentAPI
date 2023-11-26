@@ -4,7 +4,7 @@ using MiniPaymentAPI.Services.Contracts;
 namespace MiniPaymentAPI.Controllers
 {
     [ApiController]
-    [Route("api/payment")]
+    [Route("api/payment/")]
     public class PaymentController : Controller
     {
         private readonly IPaymentService _paymentService;
@@ -15,7 +15,7 @@ namespace MiniPaymentAPI.Controllers
         }
 
         [HttpPost("pay")]
-        public async Task<IActionResult> Pay([FromBody] string bankId, [FromBody] decimal amount, [FromBody] string orderReference)
+        public async Task<IActionResult> Pay([FromQuery] string bankId, [FromQuery] decimal amount, [FromQuery] string orderReference)
         {
             return Ok(await _paymentService.ProcessPayment(bankId, amount, orderReference));
         }

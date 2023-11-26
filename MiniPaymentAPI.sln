@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniPaymentAPI", "MiniPayme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniPaymentAPI.Data", "MiniPaymentAPI.Data\MiniPaymentAPI.Data.csproj", "{5AD0F9CD-5943-4C0E-BF95-7352A0F6C5DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniPaymentAPI.Services", "MiniPaymentAPI.Services\MiniPaymentAPI.Services.csproj", "{7244850A-331E-45DD-B8B9-298DF66E58D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,14 @@ Global
 		{168C112A-9655-4B14-9AB2-65D06D6DB67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{168C112A-9655-4B14-9AB2-65D06D6DB67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{168C112A-9655-4B14-9AB2-65D06D6DB67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD0F9CD-5943-4C0E-BF95-7352A0F6C5DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD0F9CD-5943-4C0E-BF95-7352A0F6C5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD0F9CD-5943-4C0E-BF95-7352A0F6C5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD0F9CD-5943-4C0E-BF95-7352A0F6C5DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7244850A-331E-45DD-B8B9-298DF66E58D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7244850A-331E-45DD-B8B9-298DF66E58D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7244850A-331E-45DD-B8B9-298DF66E58D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7244850A-331E-45DD-B8B9-298DF66E58D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

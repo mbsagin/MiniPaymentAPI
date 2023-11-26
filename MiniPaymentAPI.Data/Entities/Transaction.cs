@@ -8,7 +8,7 @@
         }
 
         public string Id { get; set; }
-        public int BankId { get; set; }
+        public string BankId { get; set; }
         public decimal TotalAmount { get; set; }
         public decimal NetAmount { get; set; }
         public short Status { get; set; }
